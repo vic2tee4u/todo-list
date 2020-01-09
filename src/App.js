@@ -39,10 +39,9 @@ class App extends Component {
     this.setState({
       items: [],
     })
-    if (window) {
       window.WEBVIEW_CLIENT_NAME.showToast('I was called from here')
       console.log("Just seeing if this works")
-    }
+    
   } 
 
   handleDelete = (id) => {
