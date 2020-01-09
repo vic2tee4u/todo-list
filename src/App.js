@@ -40,7 +40,7 @@ class App extends Component {
       items: [],
     })
     if (window) {
-      window.AndroidLink.showToast('I was called from here')
+      window.WEBVIEW_CLIENT_NAME.showToast('I was called from here')
       console.log("Just seeing if this works")
     }
   } 
