@@ -36,7 +36,7 @@ class App extends Component {
     })
   }
   clearList = () => {
-    const my_arr = ["Called from an array"]
+    const my_arr = ["Called from an array","Second array", "Third Array"]
     this.setState({
       items: [],
     })
