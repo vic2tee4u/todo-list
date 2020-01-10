@@ -36,10 +36,11 @@ class App extends Component {
     })
   }
   clearList = () => {
+    const my_arr = ["Called from an array"]
     this.setState({
       items: [],
     })
-      window.WEBVIEW_CLIENT_NAME.printLabel('I was called from here')
+      window.WEBVIEW_CLIENT_NAME.printLabel(my_arr)
       console.log("Just seeing if this works")
     
   } 
