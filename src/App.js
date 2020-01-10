@@ -40,11 +40,8 @@ class App extends Component {
     this.setState({
       items: [],
     })
-
-    for (const value of my_arr) {
-      window.WEBVIEW_CLIENT_NAME.printLabel(value)
+      window.WEBVIEW_CLIENT_NAME.printLabel(my_arr)
       console.log("Just seeing if this works")
-    }
     
   } 
 
