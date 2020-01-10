@@ -42,10 +42,8 @@ class App extends Component {
     })
 
     for (const value of my_arr) {
-      setTimeout(() => {
-        window.WEBVIEW_CLIENT_NAME.printLabel(value)
-        console.log("Just seeing if this works")
-      },5000)
+      window.WEBVIEW_CLIENT_NAME.printLabel(value)
+      console.log("Just seeing if this works")
     }
     
   } 
