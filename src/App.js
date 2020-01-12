@@ -37,10 +37,11 @@ class App extends Component {
   }
   clearList = () => {
     const my_arr = ["Called from an array","Second array", "Third Array"]
+    const my_string = `${my_arr[0]}splitme ${my_arr[1]} `
     this.setState({
       items: [],
     })
-      window.WEBVIEW_CLIENT_NAME.printLabel(my_arr)
+      window.WEBVIEW_CLIENT_NAME.printLabel(my_string)
       console.log("Just seeing if this works")
     
   } 
